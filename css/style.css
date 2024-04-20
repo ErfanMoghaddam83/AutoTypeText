@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    background: linear-gradient(to right, lightseagreen, lightskyblue ,lightsteelblue);
+}
+.accordion{
+    margin: 200px 190px;
+}
+.item {
+    border-bottom: 1px solid ;
+}
+.title {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;   
+}
+.content {
+    display: none;
+    padding: 10px;
+
+    
+}
+.active {
+    display: block;
+
+}
+
+
+
+
+
+
+
+
